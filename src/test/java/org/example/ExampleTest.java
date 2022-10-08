@@ -7,7 +7,8 @@ public class ExampleTest {
 
     @Test
     void exampleTest1() {
-        Assertions.assertTrue(2 > 1);
+        int a = 5;
+        Assertions.assertTrue(a > 1);
     }
 
     @Test
